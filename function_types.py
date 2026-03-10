@@ -1,4 +1,4 @@
-def list_m(valores, incremento):
+def list_shift(valores, incremento):
     for i in range(len(valores)):
         valores[i] = valores[i] + incremento
 
@@ -13,5 +13,5 @@ def print_normalized(valores):
 
 datos = [2.0, 4.0, 6.0, 8.0]
 prom = calc_avg(datos)
-list_m(datos, -prom)
+list_shift(datos, -prom)
 print_normalized(datos)

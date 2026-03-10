@@ -6,7 +6,7 @@ def set_globals(algun_int, algun_str):
     str_value = algun_str
 
 def get_globals():
-    return (str_value, int_value)
+    return (int_value, str_value)
 
 print(get_globals())
 set_globals(10,"Hello")
