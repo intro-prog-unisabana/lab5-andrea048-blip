@@ -4,4 +4,5 @@ def obtener_precio_usuario():
 
 precio=obtener_precio_usuario()
 print(precio)
+
  
