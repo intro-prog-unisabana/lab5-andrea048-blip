@@ -1,13 +1,13 @@
 from mystery_module import transform_data
 
 # FREEZE CODE BEGIN
-x =input()
-y =input()
-int(x)
-float(y)
+x =int(input())
+y =float(input())
+z =str(input())
+
 # FREEZE CODE END
 
-result = transform_data(x, y, "quiz_test")
+result = transform_data(x,y,z,)
 
 print(result)
 
