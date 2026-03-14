@@ -1,10 +1,3 @@
 # FREEZE CODE BEGIN
-from mystery_module import transform_data
-
-x = int(input())
-y = float(input())
-
-result = transform_data(x, y, "quiz_test")
-
-print(result)
-# FREEZE CODE END
+def transform_data(x: int, y: float, z: str) -> float:
+    pass
